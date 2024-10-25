@@ -1,7 +1,7 @@
 # guitarcade-speedup
 Hello! This is a WIP/proof of concept :]
 
-**UPDATE: CHANGED TO XDELTA PATCHES FOR LEGAL REASONS. Please download xdeltaUI and patch them onto your .psarc files! Let me know if anything doesn't work.**
+**UPDATE: CHANGED TO XDELTA PATCHES FOR LEGAL REASONS. Please download xdeltaUI and patch them onto your .psarc files! Let me know if anything doesn't work. Will look into RSmod installer eventually.**
 
 To use the mod, drag and drop the file into the guitarcade folder of your Rocksmith 2014 install. Please create a backup of the old file before you add your mod!
 (You can also rename the old file to \[name].psarc.bak and remove the ".bak" part if you wish to revert changes.)
