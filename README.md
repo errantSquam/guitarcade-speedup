@@ -16,7 +16,7 @@ No "idiot-proof" installation tutorial for now, sorry! Please report any bugs yo
 - **outro-mash-through-leaderboard (Recommended)** - Skips through the outro, GUI is the same, functionality preserved, but you can mash Start any time after the game ends to start a new one. May still have particle errors (e.g. string skip bullets don't work, need to leave and re-enter game)
 
 
-High score updating not fully tested yet. (See: https://github.com/errantSquam/guitarcade-speedup/issues/1) Assume it won't be saved for now.
+High score updating not fully tested yet. (See: https://github.com/errantSquam/guitarcade-speedup/issues/1) Theoretically, it SHOULD work, but assume the worst for now.
 
 # Rough documentation for future modders:
 The functionality for switching screens can be found in the unpacked .psarc files, under gamexblocks/guitarcade/(7z archive)/behaviors/guitarcade/esegcgameflow.lua. You can use the Song Creator Toolkit to unpack the files (just ignore the error messages)
