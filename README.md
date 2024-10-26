@@ -6,7 +6,7 @@ You can download straight from the repo or access releases here: https://github.
 ## How to Install
 **UPDATE: CHANGED TO XDELTA PATCHES FOR LEGAL REASONS. Please download xdeltaUI and patch them onto your .psarc files! Let me know if anything doesn't work. Will look into RSmod installer eventually.**
 
-To use the mod, drag and drop the file into the guitarcade folder of your Rocksmith 2014 install. Please create a backup of the old file before you add your mod!
+**To use the mod**, go into the guitarcade folder of your Rocksmith 2014 install, find the relevant .psarc, and use the bundled xdeltaUI to patch your respective game. Please create a backup of the old file before you add your mod!
 (You can also rename the old file to \[name].psarc.bak and remove the ".bak" part if you wish to revert changes.)
 
 No "idiot-proof" installation tutorial for now, sorry! Please report any bugs you experience in Issues (but no promises I'll get to it because I'm busy with life.)
