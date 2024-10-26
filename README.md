@@ -6,6 +6,11 @@ Hello! This is a WIP/proof of concept :]
 To use the mod, drag and drop the file into the guitarcade folder of your Rocksmith 2014 install. Please create a backup of the old file before you add your mod!
 (You can also rename the old file to \[name].psarc.bak and remove the ".bak" part if you wish to revert changes.)
 
+### MOD TYPES (String Skip only so far)
+- old_no_scoreboard_unstable - The default for all the xdelta patches! Skips through the scoreboard. High score should be preserved, but no missions.
+- outro-skip-stable - Only skips through the outro. Has a lower chance of glitching out the game, but you have to wait for the scoreboard to finish. Missions and high score work.
+- outro-mash-through-leaderboard - Skips through the outro, GUI is the same, functionality preserved, but you can mash Start any time after the game ends to start a new one. May still have particle errors (e.g. string skip bullets don't work, need to leave and re-enter game)
+
 No "idiot-proof" method for now, sorry! Please report any bugs you experience in Issues (but no promises I'll get to it because I'm busy with life.)
 
 High score updating not fully tested yet. (See: https://github.com/errantSquam/guitarcade-speedup/issues/1) Assume it won't be saved for now.
