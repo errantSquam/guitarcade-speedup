@@ -10,10 +10,10 @@ To use the mod, drag and drop the file into the guitarcade folder of your Rocksm
 No "idiot-proof" installation tutorial for now, sorry! Please report any bugs you experience in Issues (but no promises I'll get to it because I'm busy with life.)
 
 
-### MOD TYPES (String Skip only so far)
-- old_no_scoreboard_unstable - The default for all the xdelta patches, if alternatives don't exist. Skips through the scoreboard. High score should be preserved, but no missions.
+### MOD TYPES
+- old_no_scoreboard_unstable - Skips through the scoreboard. High score should be preserved, but no missions.
 - outro-skip-stable - Only skips through the outro. Has a lower chance of glitching out the game, but you have to wait for the scoreboard to finish. Missions and high score work.
-- **outro-mash-through-leaderboard (Recommended)** - Skips through the outro, GUI is the same, functionality preserved, but you can mash Start any time after the game ends to start a new one. May still have particle errors (e.g. string skip bullets don't work, need to leave and re-enter game)
+- **scoreboard_skip (Recommended)** - Skips through the outro, GUI is the same, functionality preserved, but you can mash Start any time after the game ends to start a new one. May still have particle errors (e.g. string skip bullets don't work, need to leave and re-enter game)
 
 
 See here for known issues: https://github.com/errantSquam/guitarcade-speedup/issues
