@@ -23,6 +23,9 @@ The functionality for switching screens can be found in the unpacked .psarc file
 
 I tend to edit the file directly within 7z because extracting and then re-compressing caused problems for me sometimes. 
 
+Currently, progress is being documented here: https://github.com/errantSquam/guitarcade-speedup/issues/3
+
+## OLD DOCUMENTATION FOR SKIPPING SCOREBOARD COMPLETELY
 Under the EndGame function, I comment out the high score logic, extract the relevant chunk for updating the high score, and place it outside. The BehaviorAPI reference to the Leaderboard is also removed (I assume that calls the GUI)
 
 See below:
