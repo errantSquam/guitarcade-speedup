@@ -1,7 +1,7 @@
 # guitarcade-speedup
 Hello! This is a WIP/proof of concept :] While the mod works, the result may be unstable and you may need to exit/re-enter your Guitarcade game (or even the whole game) to fix things.
 
-You can download straight from the repo or access releases here: https://github.com/errantSquam/guitarcade-speedup/releases/tag/v1.0.0
+You can download straight from the repo or access releases here: https://github.com/errantSquam/guitarcade-speedup/releases
 
 ## How to Install
 **UPDATE: CHANGED TO XDELTA PATCHES FOR LEGAL REASONS. Please download xdeltaUI and patch them onto your .psarc files! Let me know if anything doesn't work. Will look into RSmod installer eventually.**
