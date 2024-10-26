@@ -30,7 +30,7 @@ I tend to edit the file directly within 7z because extracting and then re-compre
 Currently, progress is being documented here: https://github.com/errantSquam/guitarcade-speedup/issues/3
 
 ## OLD DOCUMENTATION FOR SKIPPING SCOREBOARD COMPLETELY
-Under the EndGame function, I comment out the high score logic, extract the relevant chunk for updating the high score, and place it outside. The BehaviorAPI reference to the Leaderboard is also removed (I assume that calls the GUI)
+Under the EndGame function, I comment out the high score logic, extract the relevant chunk for updating the high score, and place it outside.
 
 See below:
 
