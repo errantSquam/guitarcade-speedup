@@ -3,6 +3,8 @@ Hello! This is a WIP/proof of concept :] While the mod works, the result may be 
 
 You can download straight from the repo or access releases here: https://github.com/errantSquam/guitarcade-speedup/releases
 
+Please contact me via Issues if anything doesn't work! I haven't tested this on other versions of Rocksmith.
+
 ## How to Install
 **UPDATE: CHANGED TO XDELTA PATCHES FOR LEGAL REASONS. Please download xdeltaUI and patch them onto your .psarc files! Let me know if anything doesn't work. Will look into a proper installer eventually.**
 
