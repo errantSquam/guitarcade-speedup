@@ -39,20 +39,27 @@ Some extra g_gameover = false states being issued for stability purposes (I have
 
 ### (Tick) GameEnd State:
 ![image](https://github.com/user-attachments/assets/d3b5eab1-e93e-47da-bf17-6fe353683aa9)
+
 Skips the outro call and goes straight to calling game end functionality by calling ChangeStateEndGame (normally called in outro state, which is skipped)
 
 Removal of Various ActionScript Functions:
+
 ![image](https://github.com/user-attachments/assets/05a7db67-cead-43ed-98d6-4d273e374767)
+
 These functions don't seem to affect GUI elements in any way but blocks the user from skipping through the scoreboard screen. Mission/Highscore data appears to be saved with these removed.
 
 Also, removed GUI for leaderboard challenges because they're annoying and waste time.
 
 Premature PressStart State:
+
 ![image](https://github.com/user-attachments/assets/fa19d5ad-81ae-4286-8706-953732962022)
+
 Enabling this allows the user to "mash" through the scoreboard/mission GUI immediately after the game ends, and start a new game. All functionality (highscore update, missions, assigning rocksmith points, leaderboard challenges) appears to be preserved and already processed before the GUI is called. The player can also choose to watch these screens normally (like vanilla Rocksmith functionality)
 
-Random Logic in the EndGame function call:
+### Random Logic in the EndGame function call:
+
 ![image](https://github.com/user-attachments/assets/2009983d-fb2c-4432-8fa9-f71d83820cd1)
+
 Honestly not sure if these are necessary anymore but I haven't noticed any weird bugs with them commented out. Good to trim the fat.
 
 
